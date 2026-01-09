@@ -17,6 +17,9 @@
     <h1>Danh sách tên NYC:</h1>
     <li>${lstTen[0]}</li>
     <li>${lstTen[1]}</li>
-    <h1>${lstTen[1]}</h1>
+<%--Chỉ thị này giúp module hóa các thành phần giao diện,
+    giúp chèn toàn bộ mã JSP của trang sub-page.jsp tại vị trí đặt chỉ thị @include --%>
+    <%@include file="sub-page.jsp"%>
+    <%@include file="sub-page.jsp"%>
 </body>
 </html>

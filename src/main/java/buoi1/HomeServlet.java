@@ -67,4 +67,15 @@ Khi submit form với
 
 
     }
+       /* QUY TRÌNH XỬ LÝ REQUEST
+        Web Browser: http://localhost:8080/.../home/index ---gửi request đến----> Servlet
+        HomeServlet.java: sẽ chuyển req ---forward() đến ----> index.jsp <=> Web Server
+        JSP- html gửi response về Web Browser
+     */
+/* TRUYỀN DỮ LIỆU TỪ SERVLET SANG JSP
+    - Servlet sẽ nhận và xử lý yêu cầu của từ người sử dụng,tương tác CSDL…
+    - JSP đóng vai trò tạo giao diện (HTML, CSS, JS…) để phản hồi người sử dụng
+    - JSP cần dữ liệu chia sẻ từ kết quả xử lý của Servlet để sinh giao diện phù hợp
+     */
+
 }
